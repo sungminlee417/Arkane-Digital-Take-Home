@@ -15,3 +15,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#root {
+  --swiper-navigation-color: rgb(13 148 136);
+  --swiper-pagination-color: rgb(13 148 136);
+}
