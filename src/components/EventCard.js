@@ -32,7 +32,7 @@ const EventCard = ({ event, date }) => {
   });
 
   return (
-    <div className="border rounded-md shadow-md hover:shadow-lg">
+    <div className="border rounded-md shadow-md hover:shadow-lg transition">
       <h4 className="text-center py-4 text-xl font-bold text-slate-700">
         {event.Type}
       </h4>
@@ -40,7 +40,7 @@ const EventCard = ({ event, date }) => {
         <img
           src={event.Image}
           alt={event.Title}
-          className="h-96 object-cover w-full"
+          className=" h-96 object-cover w-full"
         ></img>
         <div className="absolute flex flex-col top-8 left-8 bg-white rounded-md p-2 font-bold items-center w-16">
           <span className="text-2xl text-teal-600">
