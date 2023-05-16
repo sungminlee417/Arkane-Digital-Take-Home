@@ -4,9 +4,11 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Events />
+    <div className="App flex flex-col justify-between h-screen">
+      <div>
+        <Header />
+        <Events />
+      </div>
       <Footer />
     </div>
   );
