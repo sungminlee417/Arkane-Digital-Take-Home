@@ -14,7 +14,17 @@ const Events = () => {
     events.map((event) =>
       event.Dates.map((date) => (
         <SwiperSlide>
-          <EventCard event={event} date={date} />
+          <motion.div
+            transition={{ duration: 0.8 }}
+            initial={{
+              y: 100,
+              opacity: 0,
+            }}
+            animate={{ y: 0, opacity: 1 }}
+            className="p-10 mt-14"
+          >
+            <EventCard event={event} date={date} />
+          </motion.div>
         </SwiperSlide>
       ))
     );
