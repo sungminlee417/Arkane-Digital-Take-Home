@@ -9,7 +9,7 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fa-brands fa-github text-white text-3xl" />
+        <i className="fa-brands fa-github text-white text-3xl" />
       </a>
     </div>
   );

@@ -7,14 +7,7 @@ export const EventsProvider = ({ children }) => {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    const fetchEvents = async () => {
-      await new Promise((resolve) => {
-        setTimeout(() => {
-          resolve(setEvents(eventData));
-        }, 1000);
-      });
-    };
-    fetchEvents();
+    setEvents(eventData);
   }, []);
 
   const contextValue = { events, setEvents };

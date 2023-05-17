@@ -13,7 +13,7 @@ const Events = () => {
   const renderEvents = () =>
     events.map((event) =>
       event.Dates.map((date) => (
-        <SwiperSlide>
+        <SwiperSlide key={date}>
           <motion.div
             transition={{ duration: 0.8 }}
             initial={{

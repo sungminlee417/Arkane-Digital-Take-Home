@@ -63,7 +63,7 @@ const EventCard = ({ event, date }) => {
           </div>
           <div className="flex items-center">
             <i className="fa-regular fa-clock" />
-            <span className="ml-2">{formattedTimeString}</span>
+            <span className="ml-2">{formattedTimeString} PT</span>
           </div>
         </div>
       </div>

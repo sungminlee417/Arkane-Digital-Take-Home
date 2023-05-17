@@ -5,5 +5,12 @@
     "Dates": ["2023-06-23T23:00:00Z", "2023-07-23T23:00:00Z"],
     "Image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg",
     "Description": "Come witness this amazing performance."
+  },
+  {
+    "Title": "Mozart's Symphony No. 40",
+    "Type": "Orchestral Concert",
+    "Dates": ["2023-07-24T19:30:00Z", "2023-07-29T19:30:00Z"],
+    "Image": "https://cdn.britannica.com/35/74835-050-F0B71060/canvas-oil-Wolfgang-Amadeus-Mozart-Barbara-Krafft-1819.jpg",
+    "Description": "Come witness this amazing performance."
   }
 ]
