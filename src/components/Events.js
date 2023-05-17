@@ -21,7 +21,6 @@ const Events = () => {
               opacity: 0,
             }}
             animate={{ y: 0, opacity: 1 }}
-            className="p-10 mt-14"
           >
             <EventCard event={event} date={date} />
           </motion.div>
